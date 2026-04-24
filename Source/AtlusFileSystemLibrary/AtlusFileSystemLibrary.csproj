@@ -8,13 +8,19 @@
     <Description></Description>
     <Company></Company>
     <Product>AtlusFileSystemLibrary</Product>
-    <Copyright>Copyright ©  2018</Copyright>
+    <Copyright>Copyright © 2018</Copyright>
     <Trademark></Trademark>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
     <FileVersion>1.0.0.0</FileVersion>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <ComVisible>false</ComVisible>
-  <!-- End PropertyGroup -->
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)'=='Release'">
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+  </PropertyGroup>
+  <PropertyGroup>
+    <PublishDir>..\..\Publish</PublishDir>
   </PropertyGroup>
   <ItemGroup>
     <AssemblyAttribute Include="System.Runtime.InteropServices.Guid">
