@@ -19,9 +19,6 @@
     <DebugSymbols>False</DebugSymbols>
     <DebugType>None</DebugType>
   </PropertyGroup>
-  <PropertyGroup>
-    <PublishDir>..\..\Publish</PublishDir>
-  </PropertyGroup>
   <ItemGroup>
     <AssemblyAttribute Include="System.Runtime.InteropServices.Guid">
       <_Parameter1>9960b785-6207-44e8-ba42-ec7f6f785344</_Parameter1>

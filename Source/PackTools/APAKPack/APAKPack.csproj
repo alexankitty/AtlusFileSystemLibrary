@@ -10,9 +10,6 @@
     <DebugSymbols>False</DebugSymbols>
     <DebugType>None</DebugType>
   </PropertyGroup>
-  <PropertyGroup>
-    <PublishDir>..\..\..\Publish</PublishDir>
-  </PropertyGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\..\AtlusFileSystemLibrary\AtlusFileSystemLibrary.csproj" />

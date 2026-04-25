@@ -36,9 +36,6 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
-  <PropertyGroup>
-    <PublishDir>..\..\..\Publish</PublishDir>
-  </PropertyGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\AtlusFileSystemLibrary\AtlusFileSystemLibrary.csproj" />
   </ItemGroup>
